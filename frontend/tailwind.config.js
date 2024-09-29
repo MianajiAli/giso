@@ -7,7 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        main: ["PeydaWeb", "sans-serif"], // Specify fallback font
+      },
       colors: {
+        primary: "#2c2c2c",
+        secondary: "#f7e7d8",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
